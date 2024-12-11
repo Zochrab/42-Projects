@@ -1,0 +1,8 @@
+/* XPM */
+static char *Exit[] = {
+/* columns rows colors chars-per-pixel */
+"1 1 1 1 ",
+"  c #FF3100",
+/* pixels */
+" "
+};
