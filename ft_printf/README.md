@@ -10,5 +10,3 @@ It then prints the formatted string to the standard output.
 Part of the [Libft](../Libft/) library.
 
 [Subject File](../.misc/Subjects/ft_printf.subject.pdf)
-
-[Evaluation Sheet](../.misc/Eval/ft_printf.eval.pdf)
