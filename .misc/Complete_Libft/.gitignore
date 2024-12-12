@@ -1,0 +1,4 @@
+obj/
+obj_debug/
+libft.a
+libft_debug.a

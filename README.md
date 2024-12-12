@@ -43,3 +43,7 @@ Here is a list of the projects currently available in this repository:
   - Description: A basic Unix shell implementation.
   - Key skills: Process management, file manipulation, signals, piping, redirection.
   
+## Extras
+
+- [Complete Libft](.misc/Complete_Libft/)
+	-	Description: My actively used custom C library that implements essential functions. It's more feature complete than the one in Libft.

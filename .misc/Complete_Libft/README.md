@@ -2,14 +2,27 @@
 
 ## Overview
 
-A library of useful functions for C programs. Includes functions for memory management, string manipulation, and more.
-Future versions include [printf](../ft_printf/) and [get_next_line](../get_next_line/)
+My custom C library that implements essential functions.
+Includes functions for memory management, string manipulation, and more.
 
-[Subject File](../.misc/Subjects/Libft.subject.pdf)
-
-This is the Project Version of Libft for the Libft I currently use see [here](../.misc/Complete_Libft/)
+This is the In-Use Version of Libft for the Libft I programmed during the Project see [here](../../Libft/)
 
 ## Content
+
+### [ft_printf](./ft_printf/)
+
+A function that takes a format string and a variable number of arguments, and returns the number of characters printed.
+It prints the formatted string to the standard output.
+The function should handle the conversion specifiers %c, %s, %p, %d, %i, %u, %x, %X, %%.
+
+For the Project version see [here](../../ft_printf/)
+
+### [get_next_line](./get_next_line/)
+
+A function that reads a line from a file descriptor and returns it as a string.
+The function returns the line read, or NULL if the end of the file is reached.
+
+For the Project version see [here](../../get_next_line/)
 
 ### [ft_atoi](./ft_atoi.c)
 
