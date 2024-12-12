@@ -6,12 +6,19 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 12:52:18 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/17 13:28:38 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:26:58 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * Concatenates two strings.
+ *
+ * @param s1 the first string
+ * @param s2 the second string
+ * @return the concatenated string, or NULL if the allocation fails
+ */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*str;

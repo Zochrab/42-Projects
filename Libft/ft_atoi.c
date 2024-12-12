@@ -6,12 +6,19 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 12:01:10 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/20 09:45:05 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:10:24 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * This function converts a string of digits into an integer value.
+ * 
+ * @param nptr A pointer to the string of digits to be converted.
+ * 
+ * @return The integer value represented by the string of digits.
+ */
 int	ft_atoi(const char *nptr)
 {
 	int	i;

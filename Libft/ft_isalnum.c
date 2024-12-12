@@ -6,12 +6,17 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 11:14:00 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/13 11:36:30 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:14:25 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * Checks if the given character is alphanumeric.
+ * @param c The character to check.
+ * @return 1 if the character is alphanumeric, 0 otherwise.
+ */
 int	ft_isalnum(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')

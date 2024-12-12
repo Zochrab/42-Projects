@@ -6,12 +6,22 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 11:38:53 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/20 09:30:20 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:27:16 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * Copies up to size - 1 characters from the string src to dest, NUL-terminating
+ * the result.
+ *
+ * @param dest the destination string
+ * @param src the source string
+ * @param size the maximum number of characters to copy
+ *
+ * @return the length of the string that was attempted to be created
+ */
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	i;

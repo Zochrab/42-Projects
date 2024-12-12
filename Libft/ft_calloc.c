@@ -6,12 +6,20 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 12:05:49 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/20 16:02:58 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:14:25 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * Allocates and clears memory for an array of nmemb elements of size bytes each.
+ * 
+ * @param nmemb The number of elements to allocate.
+ * @param size The size of each element.
+ * 
+ * @return A pointer to the allocated memory, or NULL if the allocation fails.
+ */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;

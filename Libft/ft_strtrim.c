@@ -6,12 +6,21 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 14:23:17 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/20 16:59:19 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:31:39 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Allocates (with malloc(3)) and returns a copy of ’s1’ with the
+ * characters specified in ’set’ removed from the beginning and the end of the
+ * string.
+ *
+ * @param s1 The string to be trimmed.
+ * @param set The set of characters to be removed from the string.
+ * @return The trimmed string, or NULL if the allocation fails.
+ */
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	int		s;

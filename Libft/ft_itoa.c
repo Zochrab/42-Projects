@@ -6,12 +6,21 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 11:08:46 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/20 12:43:08 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:23:38 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @fn		ft_get_number_length
+ * 
+ * @brief	Calculates the length of an integer value.
+ * 
+ * @param	n	The integer value to be converted.
+ * 
+ * @return The length of the integer value.
+ */
 static int	ft_get_number_length(int n)
 {
 	int	length;
@@ -32,6 +41,17 @@ static int	ft_get_number_length(int n)
 	return (length);
 }
 
+/**
+ * @fn		ft_fill_string
+ * 
+ * @brief	Fills a string with the digits of an integer value.
+ * 
+ * @param	str	The string to be filled.
+ * @param	n	The integer value to be converted.
+ * @param	length	The length of the string.
+ * 
+ * @return None
+ */
 static void	ft_fill_string(char *str, int n, int length)
 {
 	int	i;
@@ -55,6 +75,15 @@ static void	ft_fill_string(char *str, int n, int length)
 	str[length -1] = '\0';
 }
 
+/**
+ * @fn		ft_itoa
+ * 
+ * @brief	Converts an integer value to a string of digits.
+ * 
+ * @param n The integer value to be converted.
+ * 
+ * @return	A pointer to the string of digits representing the integer value.
+ */
 char	*ft_itoa(int n)
 {
 	int		length;

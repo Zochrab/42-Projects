@@ -6,12 +6,19 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 10:56:10 by zblume            #+#    #+#             */
-/*   Updated: 2023/12/14 14:50:19 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:33:11 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Counts the number of words in a string.
+ *
+ * @param s The string in which to count words.
+ * @param c The character to use as a delimiter.
+ * @return The number of words in the string.
+ */
 static int	ft_count_words(char const *s, char c)
 {
 	int	i;
@@ -33,6 +40,13 @@ static int	ft_count_words(char const *s, char c)
 	return (j);
 }
 
+/**
+ * @brief Splits a string into an array of substrings based on a delimiter.
+ * 
+ * @param s The string to split.
+ * @param c The delimiter character.
+ * @return A pointer to an array of substrings.
+ */
 char	**ft_split(char const *s, char c)
 {
 	char	**str;

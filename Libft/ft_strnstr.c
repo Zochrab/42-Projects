@@ -6,12 +6,21 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 11:49:51 by zblume            #+#    #+#             */
-/*   Updated: 2023/11/14 15:42:48 by zblume           ###   ########.fr       */
+/*   Updated: 2024/12/12 11:35:27 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @fn ft_strnstr
+ * @brief Locates the first occurrence of the null-terminated string `little`
+ * in the string `big`, where not more than `len` characters are searched.
+ * @param big The string to search in.
+ * @param little The string to search for.
+ * @param len The maximum number of characters to search.
+ * @return A pointer to the first occurrence of little in big, or NULL if little
+*/
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t		i;
