@@ -42,6 +42,10 @@ Here is a list of the projects currently available in this repository:
 - [Project 8: Minishell](Minishell)
   - Description: A basic Unix shell implementation.
   - Key skills: Process management, file manipulation, signals, piping, redirection.
+
+- [Project 9: CPP_Modules 00 - 04](CPP_Modules)
+  - Description: A collection of C++ modules.
+  - Key skills: C++ programming, classes, inheritance, templates, exceptions.
   
 ## Extras
 
