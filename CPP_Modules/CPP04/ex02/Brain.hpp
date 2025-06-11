@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 11:10:27 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:12:33 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:02:01 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class Brain
 	
 	public:
 		Brain();
-		~Brain();
 		Brain(const Brain &other);
 		Brain &operator=(const Brain &other);	
+		~Brain();
 };
 
 #endif

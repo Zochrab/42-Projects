@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:33:18 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:15:50 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:02:08 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class Dog : public Animal
 		
 	public:
 		Dog();
-		virtual ~Dog();
 		Dog(const Dog &other);
 		Dog &operator=(const Dog &other);
+		virtual ~Dog();
 
 		void makeSound() const;
 };

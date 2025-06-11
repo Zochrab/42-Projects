@@ -6,12 +6,11 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:35:01 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:42:48 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:03:31 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Dog.hpp"
-#include <iostream>
 
 Dog::Dog() : Animal()
 {

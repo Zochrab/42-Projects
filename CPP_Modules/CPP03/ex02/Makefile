@@ -6,7 +6,7 @@
 #    By: zblume <zblume@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/03 10:49:24 by zblume            #+#    #+#              #
-#    Updated: 2025/06/03 11:55:39 by zblume           ###   ########.fr        #
+#    Updated: 2025/06/11 12:59:11 by zblume           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ INCLUDES = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
 OBJ_DIR = ./obj
 OBJ = $(patsubst %.c,$(OBJ_DIR)/%.o,$(SRC))
 
-NAME = ClapTrap
+NAME = FragTrap
 
 all:  $(NAME)
 

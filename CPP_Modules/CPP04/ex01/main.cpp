@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:38:08 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:27:16 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/04 11:46:10 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,9 @@ int main()
 	std::cout << std::endl;
 	Dog dog;
 	Cat cat;
-
+	std::cout << std::endl;
 	Dog dogCopy(dog);
 	Cat catCopy(cat);
+	std::cout << std::endl;
 	return (0);
 }

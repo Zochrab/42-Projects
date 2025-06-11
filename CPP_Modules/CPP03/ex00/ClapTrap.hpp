@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 10:50:04 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/03 11:44:52 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 12:49:35 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,8 @@ class ClapTrap
 
 	public:
 		ClapTrap(const std::string &name);
+		ClapTrap(const ClapTrap &src);
+		ClapTrap &operator=(const ClapTrap &rhs);
 		~ClapTrap();
 
 		std::string getName() const;

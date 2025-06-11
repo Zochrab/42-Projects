@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:46:46 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:04:27 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:01:26 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class WrongAnimal
 
 	public:
 		WrongAnimal();
-		virtual ~WrongAnimal();
 		WrongAnimal(const WrongAnimal &other);
 		WrongAnimal &operator=(const WrongAnimal &other);
+		virtual ~WrongAnimal();
 		
 		std::string getType() const;
 		

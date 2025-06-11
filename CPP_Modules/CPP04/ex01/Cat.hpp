@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:36:26 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:14:41 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:01:17 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ class Cat : public Animal
 
 	public:
 		Cat();
-		virtual ~Cat();
 		Cat(const Cat &other);
 		Cat &operator=(const Cat &other);
+		virtual ~Cat();
 
 		void makeSound() const;
 };

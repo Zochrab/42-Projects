@@ -6,12 +6,11 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:36:53 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:42:25 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:03:23 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Cat.hpp"
-#include <iostream>
 
 Cat::Cat() : Animal()
 {

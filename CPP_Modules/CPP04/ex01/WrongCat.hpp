@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:52:37 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 10:54:17 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:01:30 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ class WrongCat : public WrongAnimal
 {
 	public:
 		WrongCat();
-		~WrongCat();
 		WrongCat(const WrongCat &other);
 		WrongCat &operator=(const WrongCat &other);
+		~WrongCat();
 		
 		void makeSound() const;
 };

@@ -6,12 +6,11 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:31:30 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 10:57:05 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:03:08 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Animal.hpp"
-#include <iostream>
 
 Animal::Animal()
 {

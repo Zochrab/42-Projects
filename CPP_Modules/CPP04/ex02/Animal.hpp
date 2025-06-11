@@ -6,7 +6,7 @@
 /*   By: zblume <zblume@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 10:28:54 by zblume            #+#    #+#             */
-/*   Updated: 2025/06/04 11:50:04 by zblume           ###   ########.fr       */
+/*   Updated: 2025/06/11 13:03:13 by zblume           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ANIMAL_HPP
 
 # include <string>
+# include <iostream>
 
 class Animal
 {
@@ -21,9 +22,9 @@ class Animal
 		std::string _type;
 	public:
 		Animal();
-		virtual ~Animal();
 		Animal(const Animal &other);
 		Animal &operator=(const Animal &other);
+		virtual ~Animal();
 
 		std::string getType() const;
 
